@@ -21,6 +21,17 @@ const GHIcon = () => (
              .57C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12z"/>
   </svg>
 );
+const LIIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037
+             -1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046
+             c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z
+             M5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065z
+             m1.782 13.019H3.555V9h3.564v11.452z
+             M22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451
+             C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  </svg>
+);
 const DlIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
        stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
@@ -277,6 +288,19 @@ const Navbar = () => {
               <GHIcon />
             </a>
 
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/abdulwasay-frontend/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              style={iconBtnStyle}
+              onMouseEnter={iconBtnHoverIn}
+              onMouseLeave={iconBtnHoverOut}
+            >
+              <LIIcon />
+            </a>
+
             {/* CV */}
             <a
               href="/Abdul-Wasay-CV.pdf"
@@ -484,6 +508,34 @@ const Navbar = () => {
               }}
             >
               <GHIcon /> GitHub
+            </a>
+
+            {/* LinkedIn row */}
+            <a
+              href="https://www.linkedin.com/in/abdulwasay-frontend/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              style={{
+                display: "flex", alignItems: "center", gap: 10,
+                padding: "12px 16px", borderRadius: 11,
+                color: t.textSub, textDecoration: "none",
+                fontFamily: "Inter, system-ui, sans-serif",
+                fontSize: 14, fontWeight: 500,
+                transition: "background 0.18s, color 0.18s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = t.text;
+                e.currentTarget.style.background = isDark
+                  ? "rgba(255,255,255,0.03)"
+                  : "rgba(99,102,241,0.04)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = t.textSub;
+                e.currentTarget.style.background = "transparent";
+              }}
+            >
+              <LIIcon /> LinkedIn
             </a>
 
             {/* CV */}
