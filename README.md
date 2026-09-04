@@ -1,74 +1,257 @@
-# Abdul Wasay — 3D Developer Portfolio
+# 🚀 Abdul Wasay — 3D Portfolio
 
-A modern, responsive 3D developer portfolio built to showcase my frontend development skills, projects, technologies, and professional profile.
+A modern, interactive and fully responsive **3D Front-End Developer Portfolio** built with React.js and modern web technologies.
+
+This portfolio showcases my frontend development skills, projects, UI/UX work, technologies and professional profile through a clean and interactive experience.
+
+---
+
+## 🌐 Live Portfolio
+
+🔗 **Live Website:**  
+https://3-d-portfolio-main.vercel.app/
+
+---
 
 ## ✨ Features
 
-- 🎨 Modern premium UI/UX
-- 🌙 Dark Mode & ☀️ Light Mode
+- 🎨 Premium modern UI/UX
+- 🌙 Dark Mode
+- ☀️ Light Mode
 - 🖥️ Interactive 3D desktop setup
 - 📱 Fully responsive design
-- ⚡ Performance-focused frontend
+- ⚡ Performance optimized
 - 🚀 Live project demonstrations
-- 📄 Downloadable CV
 - 💻 GitHub integration
+- 📄 Downloadable CV
 - 📂 Dedicated Projects page
 - 🔎 Individual Project Details pages
 - 📬 Dedicated Contact page
 - ✨ Smooth animations and interactions
-- ♿ Accessible and keyboard-friendly interface
+- 📱 Mobile-friendly navigation
+- ♿ Accessible interface
+- 🎯 Clean and professional developer-focused design
 
-## 🛠️ Tech Stack
+---
+
+## 🛠️ Technologies
+
+### Frontend
 
 - React.js
 - JavaScript
-- Tailwind CSS
-- Three.js / React Three Fiber
 - HTML5
 - CSS3
+- Tailwind CSS
+
+### 3D & Animation
+
+- Three.js
+- React Three Fiber
+
+### Development Tools
+
 - Vite
-- Git & GitHub
+- Git
+- GitHub
+- VS Code
 
-## 📌 Featured Projects
+### Deployment
 
-### 1. FurEver Care
+- Vercel
+- GitHub Pages
 
-A responsive pet-care website with a modern interface and user-focused sections.
+---
 
-**Live Demo:**  
+# 💼 Featured Projects
+
+## 🐾 1. FurEver Care
+
+A modern and responsive pet-care website designed to connect pet owners with care services.
+
+### Features
+
+- Responsive design
+- Modern UI
+- Pet-care service sections
+- Smooth navigation
+- Mobile-friendly layout
+
+🔗 **Live Demo:**  
 https://fur-ever-care-pet-care-website.vercel.app/
 
-### 2. Student Registration Portal
+---
 
-A responsive student registration portal with structured forms and a clean interface.
+## 🎓 2. Student Registration Portal
 
-**Live Demo:**  
+A clean and responsive student registration portal with structured registration functionality.
+
+### Features
+
+- Student registration form
+- Responsive interface
+- Form-focused UI
+- Clean layout
+- Mobile responsive design
+
+🔗 **Live Demo:**  
 https://wasaywithcode.github.io/Student-Registration-Portal/#registration
 
-### 3. Sanjalika Water Park
+---
 
-A vibrant responsive water-park website with engaging sections and modern visual design.
+## 🌊 3. Sanjalika Water Park
 
-**Live Demo:**  
+A vibrant and responsive water park website featuring attractions and engaging visual sections.
+
+### Features
+
+- Modern landing page
+- Attraction sections
+- Responsive design
+- Interactive UI
+- Mobile-friendly experience
+
+🔗 **Live Demo:**  
 https://sanjalika-water-park-five.vercel.app/
 
-### 4. ERP Pathway
+---
 
-A modern ERP-focused web project designed with a responsive frontend interface.
+## 🏢 4. ERP Pathway
 
-**Live Demo:**  
+A modern ERP-focused web project with a clean and responsive frontend interface.
+
+### Features
+
+- Professional UI
+- Responsive layout
+- Modern frontend design
+- Structured sections
+- User-friendly experience
+
+🔗 **Live Demo:**  
 https://erp-pathway.vercel.app/
 
-### 5. Website Design E-Commerce
+---
 
-A responsive e-commerce website focused on modern layout, product presentation and user experience.
+## 🛒 5. Website Design E-Commerce
 
-**Live Demo:**  
+A responsive e-commerce website focused on modern product presentation and user experience.
+
+### Features
+
+- Product-focused layout
+- Responsive design
+- Modern UI
+- E-commerce sections
+- Mobile-friendly experience
+
+🔗 **Live Demo:**  
 https://wasaywithcode.github.io/Website-Design-E-commerce/
 
-## 🚀 Getting Started
+---
 
-Clone the repository:
+# 🎨 UI/UX
 
-```bash
-git clone https://github.com/WasayWithCode/3D_Portfolio-main.git
+The portfolio follows a modern premium design system focused on:
+
+- Clean visual hierarchy
+- Consistent spacing
+- Modern typography
+- Responsive layouts
+- Glass-style UI elements
+- Subtle gradients
+- Professional color system
+- Smooth interactions
+- Accessible components
+- Light and Dark themes
+
+The design is optimized for both **desktop and mobile devices**.
+
+---
+
+# 🖥️ 3D Experience
+
+The Hero section includes an interactive **3D desktop setup** created using Three.js and React Three Fiber.
+
+The 3D scene includes:
+
+- Monitor
+- PC setup
+- Speakers
+- Keyboard
+- Mouse
+- Interactive camera
+- Responsive positioning
+- Optimized rendering
+
+The 3D experience adapts to different screen sizes while maintaining a balanced Hero layout.
+
+---
+
+# 🌙 Light & Dark Mode
+
+The portfolio supports both:
+
+### 🌑 Dark Mode
+
+- Deep dark background
+- Blue/Violet accents
+- High-contrast typography
+- Subtle ambient lighting
+- Premium dark surfaces
+
+### ☀️ Light Mode
+
+- Clean white background
+- Dark typography
+- Soft borders
+- Professional blue/violet accents
+- Minimal shadows
+
+The selected theme is saved so it remains active when the user returns to the website.
+
+---
+
+# 📱 Responsive Design
+
+The portfolio is optimized for:
+
+- 🖥️ Desktop
+- 💻 Laptop
+- 📱 Tablet
+- 📱 Mobile
+- Small mobile screens
+
+Responsive improvements include:
+
+- Mobile navigation
+- Responsive 3D model
+- Flexible project cards
+- Responsive typography
+- Responsive buttons
+- No horizontal overflow
+- Mobile-friendly project details
+- Adaptive spacing
+
+---
+
+# 📂 Project Structure
+
+```text
+3D_Portfolio-main/
+│
+├── public/
+│   ├── assets/
+│   └── Abdul-Wasay-CV.pdf
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── sections/
+│   ├── assets/
+│   └── ...
+│
+├── package.json
+├── vite.config.js
+├── index.html
+└── README.md
