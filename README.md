@@ -9,7 +9,7 @@ This portfolio showcases my frontend development skills, projects, UI/UX work, t
 ## 🌐 Live Portfolio
 
 🔗 **Live Website:**  
-https://3-d-portfolio-main.vercel.app/
+https://3-d-portfolio-main-theta.vercel.app/
 
 ---
 
